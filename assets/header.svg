@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#3a0000"/>
+      <stop offset="60%" stop-color="#0a0000"/>
+      <stop offset="100%" stop-color="#000"/>
+    </radialGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" opacity="0.35"/>
+    </pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="6"/></filter>
+    <linearGradient id="drip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b00000"/>
+      <stop offset="100%" stop-color="#4a0000"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t{font-family:'Courier New',monospace;font-weight:900;font-size:120px;letter-spacing:22px}
+    .s{font-family:'Courier New',monospace;font-size:18px;letter-spacing:6px;fill:#8a0000}
+    .m{font-family:'Courier New',monospace;font-size:13px;fill:#5a0000}
+    .r{animation:gr 3s infinite steps(1)}
+    .c{animation:gc 3s infinite steps(1)}
+    .main{animation:flick 6s infinite}
+    .bar{animation:sweep 5s linear infinite}
+    .cur{animation:blink 1s infinite steps(1)}
+    .drop{animation:fall 4s ease-in infinite}
+    .drop2{animation:fall 5.5s ease-in infinite 1.5s}
+    .drop3{animation:fall 4.8s ease-in infinite 3s}
+    @keyframes gr{0%,88%,100%{transform:translate(0,0);opacity:0}89%{transform:translate(-8px,2px);opacity:.9}92%{transform:translate(6px,-3px);opacity:.9}95%{transform:translate(-3px,0);opacity:.9}}
+    @keyframes gc{0%,88%,100%{transform:translate(0,0);opacity:0}89%{transform:translate(7px,-2px);opacity:.6}92%{transform:translate(-5px,3px);opacity:.6}95%{transform:translate(3px,1px);opacity:.6}}
+    @keyframes flick{0%,19%,22%,62%,64%,100%{opacity:1}20%,63%{opacity:.35}}
+    @keyframes sweep{0%{transform:translateY(-40px)}100%{transform:translateY(320px)}}
+    @keyframes blink{0%,50%{opacity:1}51%,100%{opacity:0}}
+    @keyframes fall{0%{transform:translateY(0);opacity:1}80%{opacity:1}100%{transform:translateY(120px);opacity:0}}
+  </style>
+
+  <rect width="1000" height="300" fill="url(#glow)"/>
+
+  <!-- blood drips from top edge -->
+  <path d="M0 0 H1000 V10 C980 10 975 28 965 28 C955 28 955 10 930 10 H760 C750 10 748 46 738 46 C728 46 726 10 716 10 H520 C512 10 510 22 502 22 C494 22 492 10 484 10 H300 C290 10 288 58 276 58 C264 58 262 10 252 10 H90 C82 10 80 30 72 30 C64 30 62 10 54 10 H0 Z" fill="url(#drip)"/>
+  <circle class="drop"  cx="276" cy="64" r="5" fill="#9a0000"/>
+  <circle class="drop2" cx="738" cy="52" r="4" fill="#9a0000"/>
+  <circle class="drop3" cx="965" cy="34" r="3" fill="#9a0000"/>
+
+  <!-- title with glow + glitch layers -->
+  <text x="500" y="175" text-anchor="middle" class="t" fill="#ff0000" filter="url(#blur)" opacity=".55">3WRF</text>
+  <g class="r"><text x="500" y="175" text-anchor="middle" class="t" fill="#ff0040">3WRF</text></g>
+  <g class="c"><text x="500" y="175" text-anchor="middle" class="t" fill="#00e5ff">3WRF</text></g>
+  <text x="500" y="175" text-anchor="middle" class="t main" fill="#e00000">3WRF</text>
+
+  <text x="500" y="222" text-anchor="middle" class="s">// THEY NEVER SAW ME COMING<tspan class="cur" fill="#ff0000">_</tspan></text>
+
+  <text x="24" y="282" class="m">[ root@void ~ ]# whoami → unknown</text>
+  <text x="976" y="282" text-anchor="end" class="m">SIGNAL: ▂▃▅▇ ENCRYPTED</text>
+
+  <!-- scanlines + sweeping bar -->
+  <rect width="1000" height="300" fill="url(#scan)"/>
+  <rect class="bar" x="0" y="0" width="1000" height="26" fill="#ff0000" opacity=".05"/>
+  <rect x="1" y="1" width="998" height="298" fill="none" stroke="#2a0000" stroke-width="2"/>
+</svg>

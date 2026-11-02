@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="300" viewBox="0 0 260 300">
+<defs><radialGradient id="e"><stop offset="0%" stop-color="#ff3030"/><stop offset="60%" stop-color="#b00000"/><stop offset="100%" stop-color="#000"/></radialGradient>
+<filter id="g"><feGaussianBlur stdDeviation="5"/></filter></defs>
+<style>.sk{animation:p 2.4s ease-in-out infinite;transform-origin:130px 140px}.ey{animation:e 2.4s ease-in-out infinite}.jaw{animation:j 4s ease-in-out infinite}
+@keyframes p{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}@keyframes e{0%,100%{opacity:.5}50%{opacity:1}}@keyframes j{0%,80%,100%{transform:translateY(0)}88%{transform:translateY(8px)}}</style>
+<g class="sk">
+<path d="M130 20 C60 20 30 70 30 120 C30 160 50 180 62 190 L62 215 L198 215 L198 190 C210 180 230 160 230 120 C230 70 200 20 130 20 Z" fill="#0d0000" stroke="#e00000" stroke-width="3"/>
+<g class="ey"><ellipse cx="92" cy="125" rx="26" ry="30" fill="url(#e)" filter="url(#g)"/><ellipse cx="168" cy="125" rx="26" ry="30" fill="url(#e)" filter="url(#g)"/></g>
+<ellipse cx="92" cy="125" rx="22" ry="26" fill="none" stroke="#e00000" stroke-width="2"/><ellipse cx="168" cy="125" rx="22" ry="26" fill="none" stroke="#e00000" stroke-width="2"/>
+<circle cx="92" cy="128" r="5" fill="#ff8080"/><circle cx="168" cy="128" r="5" fill="#ff8080"/>
+<path d="M130 160 L118 185 L142 185 Z" fill="#000" stroke="#e00000" stroke-width="2"/>
+<path d="M95 60 L105 80 L98 95" fill="none" stroke="#5a0000" stroke-width="2"/>
+<g class="jaw"><path d="M70 220 L190 220 L185 262 C160 280 100 280 75 262 Z" fill="#0d0000" stroke="#e00000" stroke-width="3"/>
+<path d="M90 220 V255 M110 220 V262 M130 220 V264 M150 220 V262 M170 220 V255" stroke="#e00000" stroke-width="2"/></g>
+<path d="M75 205 H185 M90 196 V214 M110 196 V214 M130 196 V214 M150 196 V214 M170 196 V214" stroke="#e00000" stroke-width="2"/>
+</g></svg>
