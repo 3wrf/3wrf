@@ -74,16 +74,7 @@
 ```
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=3wrf&show_icons=true&hide_border=true&bg_color=0a0000&title_color=E00000&icon_color=E00000&text_color=a0a0a0&ring_color=E00000&custom_title=SYSTEM%20BREACH%20LOG" alt="stats"/>
-  <img height="165" src="https://streak-stats.demolab.com?user=3wrf&hide_border=true&background=0A0000&ring=E00000&fire=E00000&currStreakNum=E00000&sideNums=E00000&currStreakLabel=a0a0a0&sideLabels=a0a0a0&dates=5a0000&stroke=2a0000" alt="streak"/>
-</p>
-
-```bash
-3wrf@void:~$ ./heartbeat_monitor.sh
-```
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=3wrf&bg_color=0a0000&color=a0a0a0&line=E00000&point=ff4040&area=true&area_color=8b0000&hide_border=true&custom_title=HEARTBEAT%20MONITOR" width="100%" alt="activity graph"/>
+  <img width="80%" src="https://streak-stats.demolab.com?user=3wrf&hide_border=true&background=0A0000&ring=E00000&fire=E00000&currStreakNum=E00000&sideNums=E00000&currStreakLabel=a0a0a0&sideLabels=a0a0a0&dates=5a0000&stroke=2a0000" alt="streak"/>
 </p>
 
 ```bash
