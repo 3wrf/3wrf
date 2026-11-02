@@ -15,11 +15,7 @@ Cybersecurity student at the start of the road. I'm building the fundamentals fi
 
 ### toolbox
 
-<img src="https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=e6edf3"/>
-<img src="https://img.shields.io/badge/Bash-0d1117?style=flat-square&logo=gnubash&logoColor=e6edf3"/>
-<img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=e6edf3"/>
-<img src="https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=e6edf3"/>
-<img src="https://img.shields.io/badge/TryHackMe-0d1117?style=flat-square&logo=tryhackme&logoColor=e6edf3"/>
+<img src="https://img.shields.io/badge/Linux-21262d?style=for-the-badge&logo=linux&logoColor=e6edf3"/> <img src="https://img.shields.io/badge/Bash-21262d?style=for-the-badge&logo=gnubash&logoColor=e6edf3"/> <img src="https://img.shields.io/badge/Python-21262d?style=for-the-badge&logo=python&logoColor=e6edf3"/> <img src="https://img.shields.io/badge/Git-21262d?style=for-the-badge&logo=git&logoColor=e6edf3"/> <img src="https://img.shields.io/badge/TryHackMe-21262d?style=for-the-badge&logo=tryhackme&logoColor=e6edf3"/>
 
 ### notes & write-ups
 
